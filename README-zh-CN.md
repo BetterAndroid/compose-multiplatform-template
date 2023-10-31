@@ -8,6 +8,8 @@
 
 一个快速生成 Android、iOS、Desktop (JVM) 的 Jetpack Compose 多平台项目模版。
 
+<img width="1767" alt="SHOT" src="https://github.com/BetterAndroid/compose-multiplatform-template/blob/main/img-src/shot.png?raw=true">
+
 [English](https://github.com/BetterAndroid/compose-multiplatform-template/blob/master/README.md) | 简体中文
 
 | <img src="https://github.com/BetterAndroid/.github/blob/main/img-src/logo.png?raw=true" width = "30" height = "30" alt="LOGO"/> | [BetterAndroid](https://github.com/BetterAndroid) |
