@@ -22,7 +22,7 @@ def replace_strings_in_directory(directory, replacements, extensions):
 def main():
     with open('initializer.json', 'r') as json_file:
         replacements = json.load(json_file)
-    extensions = ('.kt', '.properties', '.xml', '.gradle.kts', '.xcconfig')
+    extensions = ('.kt', '.properties', '.xml', '.gradle.kts', '.xcconfig', '.plist')
     replace_strings_in_directory('.', replacements, extensions)
     print("Project initialization successful.")
     os.remove(sys.argv[0])
