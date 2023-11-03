@@ -11,10 +11,10 @@ repositories:
 plugins:
   org.jetbrains.kotlin.multiplatform:
     alias: kotlin-multiplatform
-    version: 1.9.10
+    version: +
   org.jetbrains.compose:
     alias: jetbrains-compose
-    version: 1.5.3
+    version: +
   com.android.application:
     alias: android-application
     version: +
