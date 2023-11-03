@@ -7,8 +7,8 @@ pluginManagement {
     }
 }
 plugins {
-    id("com.highcapable.sweetdependency") version "1.0.3"
-    id("com.highcapable.sweetproperty") version "1.0.4"
+    id("com.highcapable.sweetdependency") version "__SWEET_DEPENDENCY_VERSION__"
+    id("com.highcapable.sweetproperty") version "__SWEET_PROPERTY_VERSION__"
 }
 sweetProperty {
     rootProject { all { isEnable = false } }
