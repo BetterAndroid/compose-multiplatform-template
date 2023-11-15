@@ -7,6 +7,8 @@ repositories:
     scope: PLUGINS
   google:
   maven-central:
+  jetbrains-compose-dev:
+    url: https://maven.pkg.jetbrains.space/public/p/compose/dev
 
 plugins:
   org.jetbrains.kotlin.multiplatform:
@@ -25,6 +27,13 @@ plugins:
     version-ref: android-application
 
 libraries:
+  # Use a placeholder for the alpha compose version
+  # In the project to use "androidx.compose.android.version" to obtain the version
+  # and use the "resolutionStrategy" to replace all the current "stable" versions
+  androidx.compose.runtime:
+    runtime-android:
+      alias: androidx-compose-android
+      version: ^1.6.0-alpha01
   androidx.activity:
     activity:
       version: +
@@ -32,9 +41,6 @@ libraries:
       version: +
   androidx.core:
     core-ktx:
-      version: +
-  androidx.appcompat:
-    appcompat:
       version: +
   com.google.android.material:
     material:

@@ -37,7 +37,6 @@ kotlin {
             dependencies {
                 api(compose.foundation)
                 api(androidx.core.core.ktx)
-                api(androidx.appcompat.appcompat)
                 api(androidx.activity.activity)
                 api(androidx.activity.activity.compose)
             }
