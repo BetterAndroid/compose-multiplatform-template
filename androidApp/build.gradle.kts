@@ -44,12 +44,3 @@ android {
         targetCompatibility = JavaVersion.VERSION_17
     }
 }
-
-val composeAndroidVersion = dependencies.androidx.compose.android.version
-
-configurations.all {
-    resolutionStrategy.eachDependency {
-        if (requested.group.startsWith("androidx.compose."))
-            useVersion(composeAndroidVersion)
-    }
-}

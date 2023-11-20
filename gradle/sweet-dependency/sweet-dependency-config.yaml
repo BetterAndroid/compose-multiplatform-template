@@ -27,13 +27,6 @@ plugins:
     version-ref: android-application
 
 libraries:
-  # Use a placeholder for the alpha compose version
-  # In the project to use "androidx.compose.android.version" to obtain the version
-  # and use the "resolutionStrategy" to replace all the current "stable" versions
-  androidx.compose.runtime:
-    runtime-android:
-      alias: androidx-compose-android
-      version: ^1.6.0-alpha01
   androidx.activity:
     activity:
       version: +
