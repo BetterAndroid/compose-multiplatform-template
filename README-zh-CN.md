@@ -81,7 +81,7 @@ Jetpack Compose 的跨平台能力为 Android 开发者将应用程序部署到�
 ```
 Apache License Version 2.0
 
-Copyright (C) 2019-2023 HighCapable
+Copyright (C) 2019-2024 HighCapable
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -96,4 +96,4 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ```
 
-版权所有 © 2019-2023 HighCapable
+版权所有 © 2019-2024 HighCapable
