@@ -40,16 +40,8 @@ In the root directory of the project, you can find two files, `initializer.json`
    "__PROJECT_NAME__": "compose-multiplatform-demo",
    // Your app name
    "__APP_NAME__": "Compose Multiplatform Demo",
-   // Your project description
-   "__PROJECT_DESCRIPTION__": "This is a Jetpack Compose Multiplatform demo.",
-   // Your project repository URL (can be left blank for non-open source projects and deleted in gradle.properties later)
-   "__PROJECT_URL__": "https://github.com/BetterAndroid/compose-multiplatform-template",
    // Your project group name (Package Name for Android, Group for Java, Bundle ID for iOS)
-   "__GROUP_NAME__": "com.highcapable.composemultiplatformdemo",
-   // Your project license name (for non-open source projects, you can leave it blank and delete it in gradleproperties later)
-   "__LICENCE_NAME__": "Apache License 2.0",
-   // Your project license URL (for non-open source projects, you can leave it blank and delete it later in gradle.properties)
-   "__LICENCE_URL__": "https://github.com/BetterAndroid/compose-multiplatform-template/blob/main/LICENSE"
+   "__GROUP_NAME__": "com.highcapable.composemultiplatformdemo"
 }
 ```
 

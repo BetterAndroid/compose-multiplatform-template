@@ -36,16 +36,8 @@ Jetpack Compose 的跨平台能力为 Android 开发者将应用程序部署到�
   "__PROJECT_NAME__": "compose-multiplatform-demo",
   // 你的 App 名称
   "__APP_NAME__": "Compose Multiplatform Demo",
-  // 你的项目描述
-  "__PROJECT_DESCRIPTION__": "This is a Jetpack Compose Multiplatform demo.",
-  // 你的项目存储库 URL (非开源项目可不填并稍后在 gradle.properties 中删除)
-  "__PROJECT_URL__": "https://github.com/BetterAndroid/compose-multiplatform-template",
   // 你的项目组名 (Android 为 Package Name, Java 为 Group, iOS 为 Bundle ID)
-  "__GROUP_NAME__": "com.highcapable.composemultiplatformdemo",
-  // 你的项目许可证名称 (非开源项目可不填并稍后在 gradle.properties 中删除)
-  "__LICENCE_NAME__": "Apache License 2.0",
-  // 你的项目许可证 URL (非开源项目可不填并稍后在 gradle.properties 中删除)
-  "__LICENCE_URL__": "https://github.com/BetterAndroid/compose-multiplatform-template/blob/main/LICENSE"
+  "__GROUP_NAME__": "com.highcapable.composemultiplatformdemo"
 }
 ```
 
