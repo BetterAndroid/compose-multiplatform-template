@@ -31,6 +31,8 @@ kotlin {
                 implementation(compose.runtime)
                 implementation(compose.foundation)
                 implementation(compose.material3)
+                implementation(com.highcapable.betterandroid.compose.extension)
+                implementation(com.highcapable.betterandroid.compose.multiplatform)
             }
         }
         val androidMain by getting {
@@ -39,6 +41,9 @@ kotlin {
                 api(androidx.core.core.ktx)
                 api(androidx.activity.activity)
                 api(androidx.activity.activity.compose)
+                api(com.highcapable.betterandroid.ui.component)
+                api(com.highcapable.betterandroid.ui.extension)
+                api(com.highcapable.betterandroid.system.extension)
             }
         }
         val desktopMain by getting {

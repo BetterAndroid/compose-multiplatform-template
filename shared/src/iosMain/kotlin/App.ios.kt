@@ -1,9 +1,9 @@
 @file:Suppress("unused")
 
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.window.ComposeUIViewController
+import com.highcapable.betterandroid.compose.multiplatform.platform.AppComponentUIViewController
 
-fun createUIViewController() = ComposeUIViewController { MainView() }
+fun createUIViewController() = AppComponentUIViewController { MainView() }
 
 @Composable
 fun MainView() = App()

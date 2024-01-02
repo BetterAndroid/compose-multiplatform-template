@@ -27,6 +27,17 @@ plugins:
     version-ref: android-application
 
 libraries:
+  com.highcapable.betterandroid:
+    ui-component:
+      version: +
+    ui-extension:
+      version: +
+    system-extension:
+      version: +
+    compose-extension:
+      version: +
+    compose-multiplatform:
+      version: +
   androidx.activity:
     activity:
       version: +
