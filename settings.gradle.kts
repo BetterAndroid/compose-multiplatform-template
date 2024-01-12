@@ -17,4 +17,4 @@ sweetProperty {
     rootProject { all { isEnable = false } }
 }
 rootProject.name = "__PROJECT_NAME__"
-include(":androidApp", ":desktopApp", ":shared")
+include(":androidApp", ":desktopApp", ":composeApp")

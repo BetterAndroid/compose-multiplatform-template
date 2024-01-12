@@ -11,7 +11,7 @@ kotlin {
     sourceSets {
         val desktopMain by getting {
             dependencies {
-                implementation(projects.shared)
+                implementation(projects.composeApp)
             }
         }
     }
