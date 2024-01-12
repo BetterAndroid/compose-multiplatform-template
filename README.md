@@ -9,8 +9,6 @@
 
 A Jetpack Compose Multiplatform project template that quickly generates Android, iOS, and Desktop (JVM).
 
-<img width="1767" alt="SHOT" src="img-src/shot.png">
-
 English | [简体中文](README-zh-CN.md)
 
 | <img src="https://github.com/BetterAndroid/.github/blob/main/img-src/logo.png?raw=true" width = "30" height = "30" alt="LOGO"/> | [BetterAndroid](https://github.com/BetterAndroid) |
@@ -24,8 +22,9 @@ This is a Jetpack Compose Multiplatform project template that quickly generates 
 
 The cross-platform capability of Jetpack Compose provides Android developers with the possibility to deploy applications to multiple platforms.
 
-This template is modified from the official [compose-multiplatform-ios-android-template](https://github.com/JetBrains/compose-multiplatform-ios-android-template),
-it improves project structure and supports cross-platform capabilities on the desktop (JVM).
+This template is modified from the official [Kotlin Multiplatform Wizard](https://kmp.jetbrains.com/).
+
+This template integrates [Flexi UI](https://github.com/BetterAndroid/FlexiUI) and [BetterAndroid](https://github.com/BetterAndroid/BetterAndroid) to provide a better native experience for multi-platforms.
 
 ## Get Started
 

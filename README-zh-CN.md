@@ -9,12 +9,10 @@
 
 一个快速生成 Android、iOS、Desktop (JVM) 的 Jetpack Compose 多平台项目模版。
 
-<img width="1767" alt="SHOT" src="img-src/shot.png">
-
 [English](README.md) | 简体中文
 
 | <img src="https://github.com/BetterAndroid/.github/blob/main/img-src/logo.png?raw=true" width = "30" height = "30" alt="LOGO"/> | [BetterAndroid](https://github.com/BetterAndroid) |
-|---------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------|
+| ------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
 
 这个项目属于上述组织，**点击上方链接关注这个组织**，发现更多好项目。
 
@@ -22,8 +20,9 @@
 
 这是一个快速生成 Android、iOS、Desktop (JVM) 的 Jetpack Compose 多平台项目模版。
 
-Jetpack Compose 的跨平台能力为 Android 开发者将应用程序部署到多个平台提供了可能，这份模版修改自官方提供的 [compose-multiplatform-ios-android-template](https://github.com/JetBrains/compose-multiplatform-ios-android-template)，
-它改进了项目结构并支持了桌面端 (JVM) 的跨平台能力。
+Jetpack Compose 的跨平台能力为 Android 开发者将应用程序部署到多个平台提供了可能，这份模版修改自官方提供的 [Kotlin Multiplatform Wizard](https://kmp.jetbrains.com/)。
+
+这份模版集成了 [Flexi UI](https://github.com/BetterAndroid/FlexiUI) 和 [BetterAndroid](https://github.com/BetterAndroid/BetterAndroid)，为多平台提供了更好的原生体验。
 
 ## 开始使用
 

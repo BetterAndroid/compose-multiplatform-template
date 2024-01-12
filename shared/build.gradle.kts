@@ -4,8 +4,6 @@ plugins {
     autowire(libs.plugins.jetbrains.compose)
 }
 
-group = property.project.groupName
-
 kotlin {
     androidTarget()
     jvm("desktop")
@@ -21,23 +19,17 @@ kotlin {
     }
     jvmToolchain(17)
     sourceSets {
-        all {
-            languageSettings {
-                optIn("androidx.compose.material3.ExperimentalMaterial3Api")
-            }
-        }
         val commonMain by getting {
             dependencies {
                 implementation(compose.runtime)
                 implementation(compose.foundation)
-                implementation(compose.material3)
-                implementation(com.highcapable.betterandroid.compose.extension)
-                implementation(com.highcapable.betterandroid.compose.multiplatform)
+                api(com.highcapable.flexiui.core)
+                api(com.highcapable.betterandroid.compose.extension)
+                api(com.highcapable.betterandroid.compose.multiplatform)
             }
         }
         val androidMain by getting {
             dependencies {
-                api(compose.foundation)
                 api(androidx.core.core.ktx)
                 api(androidx.activity.activity)
                 api(androidx.activity.activity.compose)
@@ -49,9 +41,6 @@ kotlin {
         val desktopMain by getting {
             dependencies {
                 api(compose.desktop.currentOs)
-                api(compose.runtime)
-                api(compose.foundation)
-                api(compose.material3)
             }
         }
         val iosX64Main by getting

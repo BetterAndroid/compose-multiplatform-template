@@ -1,3 +1,5 @@
+package __GROUP_NAME__
+
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.application
@@ -8,5 +10,5 @@ fun main() = application {
         onCloseRequest = ::exitApplication,
         title = "__APP_NAME__",
         state = rememberWindowState(width = 550.dp, height = 450.dp)
-    ) { MainView() }
+    ) { App() }
 }

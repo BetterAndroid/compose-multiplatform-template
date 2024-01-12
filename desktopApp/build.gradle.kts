@@ -24,6 +24,6 @@ java {
 
 compose.desktop {
     application {
-        mainClass = "MainKt"
+        mainClass = "$group.MainKt"
     }
 }

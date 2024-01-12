@@ -13,10 +13,12 @@ repositories:
 plugins:
   org.jetbrains.kotlin.multiplatform:
     alias: kotlin-multiplatform
-    version: +
+    # Manually update this version visit https://www.jetbrains.com/help/kotlin-multiplatform-dev/compose-compatibility-and-versioning.html
+    version: 1.9.21
   org.jetbrains.compose:
     alias: jetbrains-compose
-    version: +
+    # Manually update this version visit https://www.jetbrains.com/help/kotlin-multiplatform-dev/compose-compatibility-and-versioning.html
+    version: 1.5.11
     repositories:
       maven-central
   com.android.application:
@@ -27,6 +29,12 @@ plugins:
     version-ref: android-application
 
 libraries:
+  com.highcapable.flexiui:
+    core:
+      version: +
+      # Flexi UI is in alpha stage for now.
+      version-filter:
+        use-internal: false
   com.highcapable.betterandroid:
     ui-component:
       version: +
@@ -45,9 +53,6 @@ libraries:
       version: +
   androidx.core:
     core-ktx:
-      version: +
-  com.google.android.material:
-    material:
       version: +
   androidx.test.ext:
     junit:
