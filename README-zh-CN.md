@@ -24,9 +24,11 @@ Jetpack Compose 的跨平台能力为 Android 开发者将应用程序部署到�
 
 这份模版集成了 [Flexi UI](https://github.com/BetterAndroid/FlexiUI) 和 [BetterAndroid](https://github.com/BetterAndroid/BetterAndroid)，为多平台提供了更好的原生体验。
 
+如果你仅使用 Jetpack Compose 开发 Android 应用，请参考另一个模板 [android-compose-app-template](https://github.com/BetterAndroid/android-compose-app-template)。
+
 ## 开始使用
 
-在 GitHub 上点击“Use this template”按钮来使用此模版，成功创建新的存储库后，使用 `git clone` 命令将你的项目克隆到本地，此时不要立即打开项目。
+在 GitHub 上点击 “Use this template” 按钮来使用此模版，成功创建新的存储库后，使用 `git clone` 命令将你的项目克隆到本地，此时不要立即打开项目。
 
 在项目的根目录，你可以找到 `initializer.json` 和 `initializer.py` 两个文件，请打开 `initializer.json` 文件，内容如下。
 

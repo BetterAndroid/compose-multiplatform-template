@@ -26,6 +26,8 @@ This template is modified from the official [Kotlin Multiplatform Wizard](https:
 
 This template integrates [Flexi UI](https://github.com/BetterAndroid/FlexiUI) and [BetterAndroid](https://github.com/BetterAndroid/BetterAndroid) to provide a better native experience for multi-platforms.
 
+If you only use Jetpack Compose to develop Android apps, please refer to another template [android-compose-app-template](https://github.com/BetterAndroid/android-compose-app-template).
+
 ## Get Started
 
 Click the "Use this template" button on GitHub to use this template.
