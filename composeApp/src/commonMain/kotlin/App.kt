@@ -72,11 +72,11 @@ fun MainScreen() {
             NecessarySpacer()
             Button(
                 onClick = { greeting = "Hello Jetpack Compose Multiplatform!" }
-            ) { Text(text = "Greeting") }
+            ) { Text("Greeting") }
             NecessarySpacer()
             Button(
                 onClick = { hideOrShowBars = !hideOrShowBars }
-            ) { Text(text = "Trigger SystemBars") }
+            ) { Text("Trigger SystemBars") }
         }
         LaunchedEffect(hideOrShowBars) {
             if (hideOrShowBars)
